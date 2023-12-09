@@ -1,0 +1,211 @@
+.container {
+    max-width: 80%;
+    margin: 40px auto;
+  }
+  
+  .heading h1{
+    color: white;
+    padding-right: 10px;
+  }
+
+  .heading h3{
+    color: white;
+    padding-right: 10px;
+  }
+  
+  .card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    grid-template-areas: inherit;
+
+  }
+  
+  .card {
+    background-color:gainsboro;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    border-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+
+  }
+
+  .card:hover{
+    background-color: white;
+  }
+
+  .card img{
+    width: 94%;
+    height: 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    
+  
+    
+    
+    
+  }
+  
+  .card h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+
+    
+  }
+
+  .card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+
+    
+  }
+
+  .card h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .card p {
+    font-size: 25px;
+    padding: 30px;
+    text-align: justify;
+
+  }
+  
+  
+ 
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+
+  }
+  
+  
+
+  .header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color:transparent;
+    vertical-align: middle;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-items: flex-start;
+    font-size: 20px;
+}
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    height: 60px;
+    width: 60%;
+    margin-left: 20px;
+
+}
+
+.header h1{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.submit{
+    
+    flex-direction: row;
+    margin-left: 30px;
+    background-color:whitesmoke;
+    color: black;
+    
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit:hover{
+      background-color: orangered;
+      
+}
+
+Body{
+ 
+    height: 100vh;
+    background-attachment: fixed;
+    
+    margin-bottom: auto;
+    
+    
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+
+}
+
+
+
+.header li{
+  float: left;
+}
+
+.allcour-btn{
+  background-color:black;
+  padding: 10px;
+  
+}
+
+
+.card-wrapper  button{
+  cursor: pointer;
+  background-color:black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  justify-content: center;
+  margin-left: 450px;
+}
+
+.card-wrapper button:hover{
+  background-color: #0056b3;
+  text-align: justify;
+  
+}
+
+.allcour-btn{
+  background-color:black;
+  padding: 10px;
+  transition-duration: 3s;
+}
+
+.header li a:hover{
+  background-color:black;
+}

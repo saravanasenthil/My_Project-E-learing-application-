@@ -1,0 +1,186 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color:transparent;
+    vertical-align: middle;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.header li a:hover{
+    background-color:orangered;
+    
+}
+
+.header li{
+    float: left;
+}
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    height: 60px;
+    width: 60%;
+    margin-left: 20px;
+    padding-inline-start: 10px;
+
+}
+
+.submit{
+    
+    flex-direction: row;
+    margin-left: 30px;
+    background-color:transparent;
+    color: whitesmoke;
+    
+    border-radius: 10px;
+    border-color: whitesmoke;
+    margin-right: 50px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.submit:hover{
+    background-color: orangered;
+    
+}
+
+.company{
+    display: grid;
+    grid-template-columns: 60% 50%;
+}
+
+.left{
+    padding: 60px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.right{
+    position: absolute;
+    padding-left: 600px;
+
+}
+
+.right img{
+    position: absolute;
+    height: 250px;
+    top: 125px;
+    padding-right: 50px;
+    width: auto;
+}
+
+.left h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    color: white;
+}
+
+.orange{
+    color: orangered;
+    font-size:70px ;
+}
+
+
+.home-btn{
+    background-color:orangered;
+    padding: 15px;
+    
+  }
+
+  .container {
+    max-width: 80%;
+    margin: 40px auto;
+  }
+  
+  .heading h1{
+    color: white;
+    padding-right: 200px;
+
+  }
+
+  .card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    grid-template-areas: inherit;
+
+  }
+  
+  .card {
+    background-color:gainsboro;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    border-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+
+  }
+
+  .card:hover{
+    background-color: transparent;
+    color: white;
+    transition: 1;
+  }
+
+  .card h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+
+    
+  }
+
+  .card p {
+    font-size: 25px;
+    padding: 30px;
+    text-align: justify;
+
+  }
+
+  .para p{
+    font-size:15px ;
+    margin: auto;
+  }
+  
+  
+ 
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="allcourses.css">
+    <script src="course-script.js" defer></script>
+</head>
+<body background="./images/body 2.jpg">
+    <nav class = "header" >
+        <div class="logo">
+            <img src = "./images/download-removebg-preview.png">
+        </div>   
+        <u1>
+            <li><a href=""> <span class="allcour-btn">All Courses</span> </a></li>
+          <li><a href="./dashboard.html">My Dashboards</a></li>
+          
+      </u1> 
+          
+        <div >
+          <a href="index.html" target="_blank">
+            <button class="submit" type="login">Logout</button>
+       </a>
+            
+        </div>
+    </nav>  
+  <main> 
+    <div class="container">
+        <div class="heading">
+          <h1>Welcome, Buddy!</h1>
+          <h3>Take a look into the description of courses</h3>
+        </div>
+        <div class="card-wrapper" id="cards">
+          <div class="card"  >
+               <img width="400" src="./images/Node JS.jpg">
+                <h2>Node JS</h2>
+                <h4>Start Date:19-12-2023</h4>
+                <h4>End Date:15-06-2024</h4>
+            
+                <P>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.Node.js is similar in design to, and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop. Typically, behavior is defined through callbacks at the beginning of a script, and at the end a server is started through a blocking call like EventMachine::run(). In Node.js, there is no such start-the-event-loop call. Node.js simply enters the event loop after executing the input script. Node.js exits the event loop when there are no more callbacks to perform. This behavior is like browser JavaScript — the event loop is hidden from the user.
+
+                    HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
+                    
+                    Node.js being designed without threads doesn't mean you can't take advantage of multiple cores in your environment. Child processes can be spawned by using our child_process.fork() API, and are designed to be easy to communicate with. Built upon that same interface is the cluster module, which allows you to share sockets between processes to enable load balancing over your cores.</P>
+                    <button type="submit" id="enrollButton"><a href=""></a>Enroll Now</a> </button>
+          </div>
+          
+          
+        </div>
+    </div>
+  </main> 
+</body>
+</html>    

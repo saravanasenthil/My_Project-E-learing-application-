@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <title>E-Learning</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body background="./images/login bg 3.jpg">
+    <div class="logo">
+      <img src="./images/index logo2.png" />
+    </div>
+    <div class="registercontainer">
+      <h1>Register</h1>
+      <form id="register-form" action="/register" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <div class="error"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <div class="error"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <div class="error"></div>
+
+        <label for="cpassword">Confrim Password:</label>
+        <input type="cpassword" id="cpassword" name="cpassword" required />
+        <div class="error"></div>
+
+        <button type="submit">Register</button>
+        <h2>Do you have a account?<a href="login.html">Login</a></h2>
+      </form>
+      <p id="error-message"></p>
+    </div>
+  </body>
+</html>
